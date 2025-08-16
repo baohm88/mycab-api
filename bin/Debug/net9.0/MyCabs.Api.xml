@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyCabs.Api</name>
+    </assembly>
+    <members>
+        <member name="M:MyCabs.Api.Controllers.AuthController.Register(MyCabs.Api.DTOs.RegisterDto)">
+            <summary>
+            Đăng ký tài khoản mới (User, Company, Driver, Admin)
+            </summary>
+            <param name="dto">Thông tin đăng ký</param>
+            <returns>Thông báo đăng ký thành công</returns>
+        </member>
+        <member name="M:MyCabs.Api.Controllers.AuthController.Login(MyCabs.Api.DTOs.LoginDto)">
+            <summary>
+            Đăng nhập và lấy JWT token
+            </summary>
+            <param name="dto">Thông tin đăng nhập</param>
+            <returns>JWT token</returns>
+            
+        </member>
+        <member name="M:MyCabs.Api.Controllers.AuthController.ChangePassword(MyCabs.Api.DTOs.ChangePasswordDto)">
+            <summary>
+            Đổi mật khẩu (yêu cầu đã đăng nhập)
+            </summary>
+            <param name="dto">Mật khẩu hiện tại và mật khẩu mới</param>
+        </member>
+        <member name="M:MyCabs.Api.Controllers.AuthController.UpdateAccount(MyCabs.Api.DTOs.UpdateAccountDto)">
+            <summary>
+            Cập nhật thông tin tài khoản (yêu cầu đã đăng nhập)
+            </summary>
+            <param name="dto">Thông tin cần cập nhật</param>
+        </member>
+    </members>
+</doc>
